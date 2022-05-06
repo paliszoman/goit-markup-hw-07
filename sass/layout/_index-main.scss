@@ -1,0 +1,54 @@
+.main__background {
+    background-image: linear-gradient(var(--gradient),
+            var(--gradient)),
+        url(../images/main.jpg);
+    background-size: cover;
+
+}
+
+.main-site {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &__headline {
+            font-weight: 900;
+            font-size: 44px;
+            width: 695px;
+            line-height: 1.4;
+            text-align: center;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: var(--white);
+            padding-top: 106px;
+            padding-bottom: 30px;
+    
+        }
+    
+    &__btn {
+            padding-bottom: 106px;
+    
+        }
+}
+
+.main-description,
+.about-us__list,
+.main-crew {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+
+
+.main-headline {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.43;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black);
+    padding-bottom: 50px;
+}

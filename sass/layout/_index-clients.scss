@@ -1,0 +1,29 @@
+.clients__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    &-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 32px;
+        width: 170px;
+        height: 92px;
+        border: 1px solid var(--svg-color);
+        border-radius: 4px;
+        fill: var(--svg-color);
+        transition-property: fill, border;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-delay: 0;
+    }
+
+    &-link:hover,
+    &-link:focus {
+        fill: var(--blue);
+        border: 1px solid var(--blue);
+        transform: fill, border;
+    }
+}
+
