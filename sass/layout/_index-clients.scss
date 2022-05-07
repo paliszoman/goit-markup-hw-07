@@ -21,8 +21,8 @@
 
     &-link:hover,
     &-link:focus {
-        fill: var(--blue);
-        border: 1px solid var(--blue);
+        fill: var(--main-color);
+        border: 1px solid var(--main-color);
         transform: fill, border;
     }
 }

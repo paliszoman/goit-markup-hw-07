@@ -1,5 +1,4 @@
 .header {
-    color: var(--grey);
     padding: 32px 0px;
 
     &__div {
@@ -35,7 +34,7 @@
 
 .link--hover {
     text-decoration: none;
-    color: var(--black);
+    color: var(--secondary-color);
     transition-property: color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -43,9 +42,9 @@
 
     &:hover,
     &:focus {
-            color: var(--blue);
+            color: var(--main-color);
             transform: color;
-            fill: var(--blue);
+            fill: var(--main-color);
         }
 }
 
@@ -55,7 +54,7 @@
     &::after {
         content: "";
         display: block;
-        border-bottom: 4px solid var(--blue);
+        border-bottom: 4px solid var(--main-color);
         border-radius: 2px;
         transform: translateY(35px);
 
@@ -75,7 +74,7 @@
     &--choose:focus::after {
         content: "";
         display: block;
-        border-bottom: 4px solid var(--blue);
+        border-bottom: 4px solid var(--main-color);
         border-radius: 2px;
         transform: scaleX(1) translateY(35px);
         transform-origin: left;

@@ -8,20 +8,18 @@
             font-weight: 700;
             font-size: 26px;
             line-height: 1;
-    
-            /* identical to box height */
             letter-spacing: 0.03em;
         }
 }
 
 .logo--blue {
-    color: var(--blue);
+    color: var(--main-color);
 }
 
 .logo--black {
-    color: black;
+    color: var(--secondary-color);
 }
 
 .logo--white {
-    color: var(--white);
+    color: var(--transparent-fill);
 }

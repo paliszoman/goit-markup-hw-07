@@ -13,13 +13,13 @@
 
     &--footer:hover,
     &--footer:focus {
-            background: var(--blue);
+            background: var(--main-color);
             transform: background;
         }
     
     &--footer {
             background: rgba(255, 255, 255, 0.1);
-            fill: var(--white);
+            fill: var(--transparent-fill);
         }
 }
 
